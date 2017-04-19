@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/Users/Carlos/Documents/socof/CarGame/src/cargame/input/Keys.java</file>
+            <file>file:/C:/Users/Carlos/Documents/socof/CarGame/src/cargame/gui/utils/Util.java</file>
+            <file>file:/C:/Users/Carlos/Documents/socof/CarGame/src/cargame/objects/Car.java</file>
+            <file>file:/C:/Users/Carlos/Documents/socof/CarGame/src/cargame/collision/VehicleCollisionSystem.java</file>
+            <file>file:/C:/Users/Carlos/Documents/socof/CarGame/src/cargame/objects/GameObject.java</file>
+            <file>file:/C:/Users/Carlos/Documents/socof/CarGame/src/cargame/driving/Steer.java</file>
+            <file>file:/C:/Users/Carlos/Documents/socof/CarGame/src/cargame/objects/SimulationCar.java</file>
+            <file>file:/C:/Users/Carlos/Documents/socof/CarGame/src/cargame/driving/SteerForwardSimulation.java</file>
+            <file>file:/C:/Users/Carlos/Documents/socof/CarGame/src/cargame/collision/Coordinate.java</file>
+            <file>file:/C:/Users/Carlos/Documents/socof/CarGame/src/cargame/driving/Accelerator.java</file>
+            <file>file:/C:/Users/Carlos/Documents/socof/CarGame/src/cargame/gui/Updater.java</file>
+            <file>file:/C:/Users/Carlos/Documents/socof/CarGame/src/cargame/objects/ObjectList.java</file>
+        </group>
+    </open-files>
+</project-private>

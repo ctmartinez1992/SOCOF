@@ -1,0 +1,118 @@
+V "GNAT Lib v2013"
+A -gnatA
+P ZX
+
+RN
+RV NO_DELAY
+RV NO_FLOATING_POINT
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_TASKING
+RV NO_DEFAULT_INITIALIZATION
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+RV SPARK
+RV MAX_TASKS=1
+RV MAX_ENTRY_QUEUE_LENGTH=1+
+
+U updatecoordinate%b	updatecoordinate.adb	506af0f9 OO PK
+W ada.real_time.delays%s  a-retide.adb		a-retide.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W collisionavoidancesystem%s  collisionavoidancesystem.adb  collisionavoidancesystem.ali  AD
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+W system.tasking.stages%s  s-tassta.adb		s-tassta.ali
+
+U updatecoordinate%s	updatecoordinate.ads	e2f4651e EE OO PK
+W ada%s			ada.ads			ada.ali
+W ada.real_time%s	a-reatim.adb		a-reatim.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W collisionavoidancesystem%s  collisionavoidancesystem.adb  collisionavoidancesystem.ali
+W system%s		system.ads		system.ali
+W system.parameters%s	s-parame.adb		s-parame.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+W system.task_info%s	s-tasinf.adb		s-tasinf.ali
+W system.tasking%s	s-taskin.adb		s-taskin.ali
+W system.tasking.stages%s  s-tassta.adb		s-tassta.ali
+
+D ada.ads		20130417131022 3ffc8e18
+D a-except.ads		20130417131018 10fcae55
+D a-finali.ads		20130417131020 52ecdc1b
+D a-flteio.ads		20130417131020 e18a47a0
+D a-inteio.ads		20130417131020 f64b89a4
+D a-ioexce.ads		20130417131020 8b9de6cd
+D a-numeri.ads		20130417131020 bb51c45a
+D a-nuelfu.ads		20130417131020 03e83d1c
+D a-ngelfu.ads		20130417131020 243903c9
+D a-reatim.ads		20130417131020 63f07669
+D a-retide.ads		20130417131020 081cdaa4
+D a-stream.ads		20130417131020 2ca4ee37
+D a-tags.ads		20130417131022 6c0509d0
+D a-textio.ads		20130417131022 386df5d4
+D a-tiflio.ads		20130417131022 56fbda09
+D a-tiinio.ads		20130417131022 aa04e5d6
+D a-unccon.ads		20130417131022 f9eb8f06
+D collisionavoidancesystem.ads  20140614212244 9dea6027
+D interfac.ads		20130417131026 cb4a8015
+D i-c.ads		20130417131026 5421119b
+D i-cstrin.ads		20130417131026 341d0ddf
+D i-cstrea.ads		20130417131026 8128536b
+D math.ads		20140523143740 cb79885e
+D system.ads		20130417131036 5fc8ae56
+D s-atacco.ads		20130417131028 4c36d12f
+D s-crtl.ads		20130417131028 dfcfca61
+D s-exctab.ads		20130417131028 66e51330
+D s-ficobl.ads		20130417131028 55a71d43
+D s-finmas.ads		20130417131028 b95bb341
+D s-finroo.ads		20130417131028 4ff27390
+D s-multip.ads		20130417131030 38ac9f73
+D s-osinte.ads		20130417131030 ecf1fbfd
+D s-parame.ads		20130417131032 b6e20cc0
+D s-pooglo.ads		20130417131032 542f33d0
+D s-soflin.ads		20130417131032 24c8153c
+D s-stache.ads		20130417131032 596fc1b4
+D s-stausa.ads		20130417131032 017a0a05
+D s-stalib.ads		20130417131032 f78bcf95
+D s-stoele.ads		20130417131032 facd7d98
+D s-stoele.adb		20130417131032 afc5dc80
+D s-stopoo.ads		20130417131032 7b8fbeee
+D s-tasinf.ads		20130417131032 859198ad
+D s-taspri.ads		20130417131032 196697f7
+D s-taprop.ads		20130417131032 1dd2e1b6
+D s-taskin.ads		20130417131032 59e95256
+D s-taprob.ads		20130417131032 502249e3
+D s-tassta.ads		20130417131032 70812003
+D s-traent.ads		20130417131032 5221ee41
+D s-unstyp.ads		20130417131034 6ae15c76
+D s-wchcon.ads		20130417131034 bfeb2e3d
+D s-win32.ads		20130417131034 e5a79fe6
+D updatecoordinate.ads	20140526233846 1cee7350
+D updatecoordinate.adb	20140614162744 4c8483a9
+X 1 ada.ads
+16K9*Ada 19e8 52|1r6 2r5
+X 10 a-reatim.ads
+39K13*Real_Time 139e18 52|1w10 2r9
+41O9*Time 53|4r25
+46O9*Time_Span 53|5r25
+53V13*Clock{41O9} 53|4s33
+55V14*"+"{41O9} 53|12s25
+85V13*Milliseconds{46O9} 53|5s38
+X 18 collisionavoidancesystem.ads
+14K9*CollisionAvoidanceSystem 70e29 52|1w20 2r19 53|10r7 14r10 16r13 22r13
+26R9*COORDINATE 30e17 53|6r22
+29f10*Y{float} 53|9m21 20m27 20r44
+34U17 read 53|16s52
+35U17 write 53|10s46 22s52
+40w4*carCoordinate{33W19} 53|10r32 16r38 22r38
+43U14*getSpeed 53|14s35
+X 37 s-stausa.ads
+203U14*Initialize 204i<c,__gnat_stack_usage_initialize>22
+268U14*Output_Results 272i<c,__gnat_stack_usage_output_results>22
+X 52 updatecoordinate.ads
+3K9*UpdateCoordinate 6l5 6e21 53|1b14 26l5 26t21
+4t9*UpdateCoordinateTask 53|2b14 25l8 25t28
+X 53 updatecoordinate.adb
+3i7 timer{integer} 5r51 20r71
+4o7 nextPeriod{10|41O9} 12m10 12r28 13r22
+5o7 period{10|46O9} 12r40
+6r7 tmpCoordinate{18|26R9} 9m7 10r52 16m57 20m13 20r30 22r58
+7f7 tmpSpeed{float} 14m44 15r13 18m13 18r23 20r48
+

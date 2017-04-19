@@ -1,0 +1,140 @@
+V "GNAT Lib v2013"
+A -O0
+A -g
+A -gnatA
+P ZX
+
+RN
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTIONS
+RV NO_FLOATING_POINT
+RV NO_IO
+RV NO_PROTECTED_TYPES
+RV NO_SELECT_STATEMENTS
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_TASKING
+RV NO_DEFAULT_INITIALIZATION
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+RV SPARK
+RV MAX_SELECT_ALTERNATIVES=2
+RV MAX_TASK_ENTRIES=2
+RV MAX_TASKS=1
+RV MAX_ENTRY_QUEUE_LENGTH=1+
+
+U wheelshaft%b		wheelshaft.adb		53eb27fa OO PK IL
+W ada.tags%s		a-tags.adb		a-tags.ali
+W system%s		system.ads		system.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+W system.tasking%s	s-taskin.adb		s-taskin.ali
+W system.tasking.protected_objects%s  s-taprob.adb  s-taprob.ali
+W system.tasking.rendezvous%s  s-tasren.adb	s-tasren.ali
+W system.tasking.stages%s  s-tassta.adb		s-tassta.ali
+
+U wheelshaft%s		wheelshaft.ads		555428cd EE OO PF PK IL
+W ada%s			ada.ads			ada.ali
+W ada.float_text_io%s	a-flteio.ads		a-flteio.ali
+W ada.real_time%s	a-reatim.adb		a-reatim.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W collisionavoidancesystem%s  collisionavoidancesystem.adb  collisionavoidancesystem.ali
+W system%s		system.ads		system.ali
+W system.parameters%s	s-parame.adb		s-parame.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+W system.task_info%s	s-tasinf.adb		s-tasinf.ali
+W system.tasking%s	s-taskin.adb		s-taskin.ali
+W system.tasking.protected_objects%s  s-taprob.adb  s-taprob.ali
+W system.tasking.stages%s  s-tassta.adb		s-tassta.ali
+
+D ada.ads		20130417131022 3ffc8e18
+D a-except.ads		20130417131018 10fcae55
+D a-finali.ads		20130417131020 52ecdc1b
+D a-flteio.ads		20130417131020 e18a47a0
+D a-inteio.ads		20130417131020 f64b89a4
+D a-ioexce.ads		20130417131020 8b9de6cd
+D a-numeri.ads		20130417131020 bb51c45a
+D a-nuelfu.ads		20130417131020 03e83d1c
+D a-ngelfu.ads		20130417131020 243903c9
+D a-reatim.ads		20130417131020 63f07669
+D a-stream.ads		20130417131020 2ca4ee37
+D a-tags.ads		20130417131022 6c0509d0
+D a-textio.ads		20130417131022 386df5d4
+D a-tiflio.ads		20130417131022 56fbda09
+D a-tiinio.ads		20130417131022 aa04e5d6
+D a-unccon.ads		20130417131022 f9eb8f06
+D collisionavoidancesystem.ads  20140524161950 cdeffd1b
+D interfac.ads		20130417131026 cb4a8015
+D i-c.ads		20130417131026 5421119b
+D i-cstrin.ads		20130417131026 341d0ddf
+D i-cstrea.ads		20130417131026 8128536b
+D math.ads		20140524095130 cb79885e
+D system.ads		20130417131036 5fc8ae56
+D s-atacco.ads		20130417131028 4c36d12f
+D s-crtl.ads		20130417131028 dfcfca61
+D s-exctab.ads		20130417131028 66e51330
+D s-ficobl.ads		20130417131028 55a71d43
+D s-finmas.ads		20130417131028 b95bb341
+D s-finroo.ads		20130417131028 4ff27390
+D s-multip.ads		20130417131030 38ac9f73
+D s-osinte.ads		20130417131030 ecf1fbfd
+D s-parame.ads		20130417131032 b6e20cc0
+D s-pooglo.ads		20130417131032 542f33d0
+D s-soflin.ads		20130417131032 24c8153c
+D s-stache.ads		20130417131032 596fc1b4
+D s-stausa.ads		20130417131032 017a0a05
+D s-stalib.ads		20130417131032 f78bcf95
+D s-stoele.ads		20130417131032 facd7d98
+D s-stoele.adb		20130417131032 afc5dc80
+D s-stopoo.ads		20130417131032 7b8fbeee
+D s-tasinf.ads		20130417131032 859198ad
+D s-taspri.ads		20130417131032 196697f7
+D s-taprop.ads		20130417131032 1dd2e1b6
+D s-taskin.ads		20130417131032 59e95256
+D s-taprob.ads		20130417131032 502249e3
+D s-tpoben.ads		20130417131032 b641f948
+D s-tasren.ads		20130417131032 a67a9949
+D s-tassta.ads		20130417131032 70812003
+D s-traent.ads		20130417131032 5221ee41
+D s-unstyp.ads		20130417131034 6ae15c76
+D s-wchcon.ads		20130417131034 bfeb2e3d
+D s-win32.ads		20130417131034 e5a79fe6
+D wheelshaft.ads	20140524150934 415c67a2
+D wheelshaft.adb	20140524160946 12b74058
+X 1 ada.ads
+16K9*Ada 19e8 53|1r9 2r9 54|43r19 44r19 45r19 54r19 55r19 56r19
+X 4 a-flteio.ads
+20K13*Float_Text_IO[14|45] 53|2w13 54|45r23 56r23
+X 13 a-textio.ads
+49K13*Text_IO 471e16 53|1w13 54|43r23 44r23 54r23 55r23
+166U14*New_Line 54|43s31 54s31
+242U14*Put 54|44s31 55s31
+X 14 a-tiflio.ads
+67U14*Put 54|45s37[4|20] 56s37[4|20]
+X 17 collisionavoidancesystem.ads
+13K9*CollisionAvoidanceSystem 50e29 53|3w9 54|41r19 52r19
+42t9*CASUpdate 54|41r44 52r44
+43Y14 updateSpeed 54|41s54 52s54
+X 36 s-stausa.ads
+203U14*Initialize 204i<c,__gnat_stack_usage_initialize>22
+268U14*Output_Results 272i<c,__gnat_stack_usage_output_results>22
+X 53 wheelshaft.ads
+5K9*WheelShaft 20l5 20e15 54|1b14 62l5 62t15
+7w14*RotationBuffer 54|3b19 28l8 28t22 35r10 40r19 51r19
+8U17 get 8<21 54|4b17 7l11 7t14 35s25
+8f21 curR{float} 54|4b21 6m10
+9U17 add 9=21 54|9b17 17l11 17t14 40s34
+9f21 value{float} 54|9b21 11r19 12m10 13r13 15m13
+10U17 sub 10=21 54|19b17 27l11 27t14 51s34
+10f21 value{float} 54|19b21 21r19 22m10 23r13 25m13
+12f7 r{float} 54|6r24 11r10 11r15 12r19 14r13 21r10 21r15 22r19 24r13
+15t9*WheelShaftTask 54|30b14 60l8 60t22
+16Y13 increaseRotation 16>30 54|38b23 46l20 46t36
+16f30 value{float} 54|39r27
+17Y13 decreaseRotation 17>30 54|49b23 57l20 57t36
+17f30 value{float} 54|50r27
+X 54 wheelshaft.adb
+31f7 newR{float} 39m19 40m38 40r38 41r72 45r41 50m19 51m38 51r38 52r73 56r41
+32f7 rCompare{float} 35m29 37r18 48r18
+38f40 value{float}
+49f40 value{float}
+

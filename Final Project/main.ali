@@ -1,0 +1,92 @@
+V "GNAT Lib v2013"
+M P W=b
+A -gnatA
+P ZX
+
+RN
+RV NO_IO
+RV NO_IMPLEMENTATION_PRAGMAS
+RV SPARK
+
+U main%b		main.adb		4e9327d7 NE OO SU
+W ada%s			ada.ads			ada.ali
+W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W collisionavoidancesystem%s  collisionavoidancesystem.adb  collisionavoidancesystem.ali
+W updatecoordinate%s	updatecoordinate.adb	updatecoordinate.ali
+W vehicledetectionsensor%s  vehicledetectionsensor.adb  vehicledetectionsensor.ali
+
+D ada.ads		20130417131022 3ffc8e18
+D a-except.ads		20130417131018 10fcae55
+D a-finali.ads		20130417131020 52ecdc1b
+D a-flteio.ads		20130417131020 e18a47a0
+D a-inteio.ads		20130417131020 f64b89a4
+D a-ioexce.ads		20130417131020 8b9de6cd
+D a-numeri.ads		20130417131020 bb51c45a
+D a-nuelfu.ads		20130417131020 03e83d1c
+D a-ngelfu.ads		20130417131020 243903c9
+D a-reatim.ads		20130417131020 63f07669
+D a-stream.ads		20130417131020 2ca4ee37
+D a-tags.ads		20130417131022 6c0509d0
+D a-textio.ads		20130417131022 386df5d4
+D a-tiflio.ads		20130417131022 56fbda09
+D a-tiinio.ads		20130417131022 aa04e5d6
+D a-unccon.ads		20130417131022 f9eb8f06
+D collisionavoidancesystem.ads  20140614212244 9dea6027
+D interfac.ads		20130417131026 cb4a8015
+D i-c.ads		20130417131026 5421119b
+D i-cstrin.ads		20130417131026 341d0ddf
+D i-cstrea.ads		20130417131026 8128536b
+D main.adb		20140614185442 430bffc0
+D math.ads		20140523143740 cb79885e
+D system.ads		20130417131036 5fc8ae56
+D s-atacco.ads		20130417131028 4c36d12f
+D s-crtl.ads		20130417131028 dfcfca61
+D s-exctab.ads		20130417131028 66e51330
+D s-ficobl.ads		20130417131028 55a71d43
+D s-finmas.ads		20130417131028 b95bb341
+D s-finroo.ads		20130417131028 4ff27390
+D s-multip.ads		20130417131030 38ac9f73
+D s-osinte.ads		20130417131030 ecf1fbfd
+D s-parame.ads		20130417131032 b6e20cc0
+D s-pooglo.ads		20130417131032 542f33d0
+D s-soflin.ads		20130417131032 24c8153c
+D s-stache.ads		20130417131032 596fc1b4
+D s-stausa.ads		20130417131032 017a0a05
+D s-stalib.ads		20130417131032 f78bcf95
+D s-stoele.ads		20130417131032 facd7d98
+D s-stoele.adb		20130417131032 afc5dc80
+D s-stopoo.ads		20130417131032 7b8fbeee
+D s-tasinf.ads		20130417131032 859198ad
+D s-taspri.ads		20130417131032 196697f7
+D s-taprop.ads		20130417131032 1dd2e1b6
+D s-taskin.ads		20130417131032 59e95256
+D s-taprob.ads		20130417131032 502249e3
+D s-tassta.ads		20130417131032 70812003
+D s-traent.ads		20130417131032 5221ee41
+D s-unstyp.ads		20130417131034 6ae15c76
+D s-wchcon.ads		20130417131034 bfeb2e3d
+D s-win32.ads		20130417131034 e5a79fe6
+D updatecoordinate.ads	20140526233846 1cee7350
+D vehicleconflictinfo.ads  20140614185812 5be33c63
+D vehicledetectionsensor.ads  20140614212018 42bab710
+X 1 ada.ads
+16K9*Ada 19e8 22|1r9 2r9 7r9 8r9 12r4 13r4 14r4
+X 5 a-inteio.ads
+18K13*Integer_Text_IO[15|45] 22|1w13 7r13
+X 13 a-textio.ads
+49K13*Text_IO 471e16 22|2w13 8r13 12r8 13r8 14r8
+166U14*New_Line 22|13s16 14s16
+242U14*Put 22|12s16
+X 17 collisionavoidancesystem.ads
+14K9*CollisionAvoidanceSystem 70e29 22|3w9
+X 22 main.adb
+10U11*Main 10b11 15l5 15t9
+X 37 s-stausa.ads
+203U14*Initialize 204i<c,__gnat_stack_usage_initialize>22
+268U14*Output_Results 272i<c,__gnat_stack_usage_output_results>22
+X 52 updatecoordinate.ads
+3K9*UpdateCoordinate 22|5w9 52|6e21
+X 54 vehicledetectionsensor.ads
+10K9*VehicleDetectionSensor 22|4w9 54|22e27
+

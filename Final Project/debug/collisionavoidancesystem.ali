@@ -1,0 +1,228 @@
+V "GNAT Lib v2013"
+A -O0
+A -g
+A -gnatA
+P ZX
+
+RN
+RV NO_DELAY
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTIONS
+RV NO_FIXED_POINT
+RV NO_FLOATING_POINT
+RV NO_IO
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_PROTECTED_TYPES
+RV NO_SELECT_STATEMENTS
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_TASKING
+RV NO_DEFAULT_INITIALIZATION
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+RV SPARK
+RV MAX_SELECT_ALTERNATIVES=2
+RV MAX_TASK_ENTRIES=1
+RV MAX_TASKS=2
+
+U collisionavoidancesystem%b  collisionavoidancesystem.adb  ee7e5eba OO PK IL
+W accelerator%s		accelerator.adb		accelerator.ali
+W ada.real_time.delays%s  a-retide.adb		a-retide.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W brake%s		brake.adb		brake.ali
+W interfaces%s		interfac.ads		interfac.ali
+W system%s		system.ads		system.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+W system.tasking%s	s-taskin.adb		s-taskin.ali
+W system.tasking.protected_objects%s  s-taprob.adb  s-taprob.ali
+W system.tasking.rendezvous%s  s-tasren.adb	s-tasren.ali
+W system.tasking.stages%s  s-tassta.adb		s-tassta.ali
+
+U collisionavoidancesystem%s  collisionavoidancesystem.ads  33921557 EE OO PF PK IL
+W ada%s			ada.ads			ada.ali
+W ada.float_text_io%s	a-flteio.ads		a-flteio.ali
+W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
+W ada.numerics%s	a-numeri.ads		a-numeri.ali
+W ada.numerics.elementary_functions%s  a-nuelfu.ads  a-nuelfu.ali
+W ada.numerics.generic_elementary_functions%s
+W ada.real_time%s	a-reatim.adb		a-reatim.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W math%s		math.adb		math.ali
+W system%s		system.ads		system.ali
+W system.parameters%s	s-parame.adb		s-parame.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+W system.task_info%s	s-tasinf.adb		s-tasinf.ali
+W system.tasking%s	s-taskin.adb		s-taskin.ali
+W system.tasking.protected_objects%s  s-taprob.adb  s-taprob.ali
+W system.tasking.stages%s  s-tassta.adb		s-tassta.ali
+
+D accelerator.ads	20140614204144 3fb21d55
+D ada.ads		20130417131022 3ffc8e18
+D a-except.ads		20130417131018 10fcae55
+D a-finali.ads		20130417131020 52ecdc1b
+D a-flteio.ads		20130417131020 e18a47a0
+D a-inteio.ads		20130417131020 f64b89a4
+D a-ioexce.ads		20130417131020 8b9de6cd
+D a-numeri.ads		20130417131020 bb51c45a
+D a-nuelfu.ads		20130417131020 03e83d1c
+D a-ngelfu.ads		20130417131020 243903c9
+D a-reatim.ads		20130417131020 63f07669
+D a-retide.ads		20130417131020 081cdaa4
+D a-stream.ads		20130417131020 2ca4ee37
+D a-tags.ads		20130417131022 6c0509d0
+D a-textio.ads		20130417131022 386df5d4
+D a-tienio.ads		20130417131022 fc618ae6
+D a-tiflio.ads		20130417131022 56fbda09
+D a-tiinio.ads		20130417131022 aa04e5d6
+D a-unccon.ads		20130417131022 f9eb8f06
+D brake.ads		20140614201944 ccccaaa3
+D collisionavoidancesystem.ads  20140614204210 9366ee65
+D collisionavoidancesystem.adb  20140614203352 8e660729
+D interfac.ads		20130417131026 cb4a8015
+D i-c.ads		20130417131026 5421119b
+D i-cstrin.ads		20130417131026 341d0ddf
+D i-cstrea.ads		20130417131026 8128536b
+D math.ads		20140614201944 cb79885e
+D system.ads		20130417131036 5fc8ae56
+D s-atacco.ads		20130417131028 4c36d12f
+D s-crtl.ads		20130417131028 dfcfca61
+D s-exctab.ads		20130417131028 66e51330
+D s-ficobl.ads		20130417131028 55a71d43
+D s-finmas.ads		20130417131028 b95bb341
+D s-finroo.ads		20130417131028 4ff27390
+D s-multip.ads		20130417131030 38ac9f73
+D s-osinte.ads		20130417131030 ecf1fbfd
+D s-parame.ads		20130417131032 b6e20cc0
+D s-pooglo.ads		20130417131032 542f33d0
+D s-soflin.ads		20130417131032 24c8153c
+D s-stache.ads		20130417131032 596fc1b4
+D s-stausa.ads		20130417131032 017a0a05
+D s-stalib.ads		20130417131032 f78bcf95
+D s-stoele.ads		20130417131032 facd7d98
+D s-stoele.adb		20130417131032 afc5dc80
+D s-stopoo.ads		20130417131032 7b8fbeee
+D s-tasinf.ads		20130417131032 859198ad
+D s-taspri.ads		20130417131032 196697f7
+D s-taprop.ads		20130417131032 1dd2e1b6
+D s-taskin.ads		20130417131032 59e95256
+D s-taprob.ads		20130417131032 502249e3
+D s-tpoben.ads		20130417131032 b641f948
+D s-tasren.ads		20130417131032 a67a9949
+D s-tassta.ads		20130417131032 70812003
+D s-traent.ads		20130417131032 5221ee41
+D s-unstyp.ads		20130417131034 6ae15c76
+D s-wchcon.ads		20130417131034 bfeb2e3d
+D s-win32.ads		20130417131034 e5a79fe6
+D wheelshaft.ads	20140614203908 3ef9c424
+X 1 accelerator.ads
+7K9*Accelerator 24e16 22|2w6 151r13 155r13 173r25 175r19
+10t9*AcceleratorUpdateTask 22|151r25 155r25 175r31
+12Y13 changeState 22|151s47 155s47 175s53
+23b4*on{boolean} 22|173r37
+X 2 ada.ads
+16K9*Ada 19e8 21|2r6 3r6 4r6 5r6 6r6 7r6 10r5 11r5 12r5 22|62r25 62r47 63r25
+. 63r47 64r25 69r28 70r28 71r40 73r29 107r25 107r47 108r25 108r52 115r7 116r7
+. 117r7 119r7 122r24 129r9 130r9 136r13 137r13 146r13 147r13 148r13 157r13
+. 158r13 159r13 160r13 170r16
+X 5 a-flteio.ads
+20K13*Float_Text_IO[17|45] 21|6w10 12r9 22|116r11
+X 6 a-inteio.ads
+18K13*Integer_Text_IO[18|45] 21|5w10 22|119r11 147r17
+X 8 a-numeri.ads
+16K13*Numerics 32e17 21|2r10 3r10 10r9
+X 9 a-nuelfu.ads
+18K22*Elementary_Functions[10|39] 21|2w19 10r18
+X 10 a-ngelfu.ads
+39k22*Generic_Elementary_Functions 154e46 21|3w19
+X 11 a-reatim.ads
+39K13*Real_Time 139e18 21|4w10 22|62r29 62r51 63r29 63r51 64r29 69r32 70r32
+. 71r44 73r33 107r29 107r51 108r29 108r56 122r28
+41O9*Time 22|62r39 63r39 107r39
+46O9*Time_Span 22|64r39 108r39
+53V13*Clock{41O9} 22|62s61 63s61 69s42 73s43 107s61
+55V14*"+"{41O9} 22|122s39
+58V14*"-"{46O9} 22|70s43
+65V14*"+"{46O9} 22|122r39
+67V14*"-"{46O9} 22|70r43
+80V13*To_Duration{duration} 22|71s54
+85V13*Milliseconds{46O9} 22|108s66
+X 15 a-textio.ads
+49K13*Text_IO 471e16 21|7w10 11r9 22|115r11 117r11 129r13 130r13 136r17 137r17
+. 146r17 148r17 157r17 158r17 159r17 160r17 170r20
+166U14*New_Line 22|117s19 129s21 130s21 134s10 137s25 148s25 158s25 159s25
+. 160s25 170s28 171s16
+242U14*Put 22|115s19 131s10 133s10 136s25 146s25 157s25 166s16 169s16
+X 17 a-tiflio.ads
+67U14*Put 22|116s25[5|20] 132s10[5|20] 168s16[5|20]
+X 18 a-tiinio.ads
+55U14*Get 22|119s27[6|18]
+65U14*Put 22|147s33[6|18]
+X 20 brake.ads
+11K9*Brake 23e10 22|1w6 150r13 150r35 156r13 156r35
+14I9*Voltage<short_short_integer> 22|150r41 156r41
+19t9*BrakeTask 22|150r19 156r19
+21Y13 brake 22|150s29 156s29
+X 21 collisionavoidancesystem.ads
+14K9*CollisionAvoidanceSystem 66l5 66e29 22|4b14 182l5 182t29
+17I9*Voltage<short_short_integer> 47r80 22|6r80 16r14 101r25
+20E9*Friction 20e82 23r9 50r36 22|19r36
+20n22*DryAsphalt{20E9} 22|23r12
+20n34*WetAsphalt{20E9} 22|24r12
+20n46*DryConcrete{20E9} 22|25r12
+20n59*WetConcrete{20E9} 22|26r12
+20n72*Snow{20E9} 22|27r12
+20n78*Ice{20E9} 23r21 22|28r12
+23e4*f{20E9} 22|114r35
+26R9*COORDINATE 30e17 34r36 35r36 37r14 22|45r36 50r36
+28f10*X{float}
+29f10*Y{float}
+33W19*ProtectedCoordinate 38l8 38e27 40r19 22|44b19 54l8 54t27
+34U17 read 34<22 22|45b17 48l11 48t15
+34r22 curCoord{26R9} 22|45b22 47m10
+35U17 write 35>23 22|50b17 53l11 53t16
+35r23 newCoord{26R9} 22|50b23 52r19
+37r7 coord{26R9} 22|47r22 52r10
+40w4*carCoordinate{33W19}
+43U14*getSpeed 43<23 22|34b14 37l8 37t16 167s16
+43f23 s{float} 22|34b23 36m7
+44U14*getDistance 44<26 22|39b14 42l8 42t19
+44f26 d{float} 22|39b26 41m7
+45U14*updateDistance 45>29 22|56b14 59t7
+45f29 d{float} 22|56b29 58r22
+47V13*getVoltage{17I9} 47>24 47>44 47>57 22|6b13 17l8 17t18 144s31
+47f24 Velocity{float} 22|6b24 10r23
+47f44 U{float} 22|6b44 10r69
+47f57 Dist{float} 22|6b57 10r62
+50V13*getFriction{float} 50>25 22|19b13 32l8 32t19 114s23
+50e25 fValue{20E9} 22|19b25 22r12
+52t9*CASUpdate 22|61b14 82l8 82t17
+53Y13 rotationSignal 22|68b20 74l17 74t31
+56t9*CAS 22|84b14 181l8 181t11
+61f4 speed{float} 22|36r12 71m16 78m13 144r42
+64f4 distance{float} 22|41r12 58m10 127r29
+X 22 collisionavoidancesystem.adb
+7f7 Res{float} 10m7 11r10 12m10 13r13 14m10 16r22
+8f7 Const{float} 10r54
+20f7 Res{float} 23m26 24m26 25m27 26m27 27m20 28m19 31r14
+62o7 stopTime{11|41O9} 69m16 70r46
+63o7 startTime{11|41O9} 70r56 73m16
+64o7 timeSpan{11|46O9} 70m16 71r66
+86f7 stopDistance{float}
+89f7 currentDistance{float} 127m10 132r14 135r13 144r63 153r16 153r43 161r16
+92f7 diffDistance{float}
+95i7 c{integer} 139m13
+98b7 needsToBreak{boolean} 140m13 154m13
+101i7 voltageToBreak{21|17I9} 144m13 147r45 150r49
+104f7 usedFriction{float} 114m7 116r29 144r49 150r65 156r52
+107o7 nextPeriod{11|41O9} 122m10 122r42 123r22
+108o7 period{11|46O9} 122r54
+110i7 tmp{integer} 119m31
+163b16 estado{boolean} 173m16 174r19
+164f16 velocidade{float} 167m25 168r20
+X 27 math.ads
+4K9*Math 21|1w6 9r5 27|7e9
+X 41 s-stausa.ads
+203U14*Initialize 204i<c,__gnat_stack_usage_initialize>22
+268U14*Output_Results 272i<c,__gnat_stack_usage_output_results>22
+

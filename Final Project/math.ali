@@ -1,0 +1,51 @@
+V "GNAT Lib v2013"
+A -gnatA
+P ZX
+
+RN
+RV NO_FLOATING_POINT
+RV NO_IMPLEMENTATION_PRAGMAS
+RV SPARK
+
+U math%b		math.adb		cfd0852f NE OO PK
+W system.exn_llf%s	s-exnllf.adb		s-exnllf.ali
+
+U math%s		math.ads		eca8b68b EE NE OO PK
+W ada%s			ada.ads			ada.ali
+W ada.numerics%s	a-numeri.ads		a-numeri.ali
+W ada.numerics.elementary_functions%s  a-nuelfu.ads  a-nuelfu.ali
+W ada.numerics.generic_elementary_functions%s
+
+D ada.ads		20130417131022 3ffc8e18
+D a-numeri.ads		20130417131020 bb51c45a
+D a-nuelfu.ads		20130417131020 03e83d1c
+D a-ngelfu.ads		20130417131020 243903c9
+D a-unccon.ads		20130417131022 f9eb8f06
+D math.ads		20140523143740 cb79885e
+D math.adb		20140523143800 04a90d71
+D system.ads		20130417131036 5fc8ae56
+D s-exctab.ads		20130417131028 66e51330
+D s-exnllf.ads		20130417131028 81841eef
+D s-stalib.ads		20130417131032 f78bcf95
+X 1 ada.ads
+16K9*Ada 19e8 6|1r6 1r40 2r5
+X 2 a-numeri.ads
+16K13*Numerics 32e17 6|1r10 1r44 2r9
+X 3 a-nuelfu.ads
+18K22*Elementary_Functions[4|39] 6|1w19 2r18
+X 4 a-ngelfu.ads
+39k22*Generic_Elementary_Functions 154e46 6|1w53
+57V14*"**"{float} 7|6s16[3|18]
+X 6 math.ads
+4K9*Math 7l5 7e9 7|1b14 23l5 23t9
+5V13*Sqrt{float} 5>18 5>28 7|3b13 8l8 8t12
+5f18 A{float} 7|3b18 6r15
+5i28 B{integer} 7|3b28 6r29
+6V13*Pow{float} 6>17 6>27 7|10b13 21l8 21t11
+6f17 X{float} 7|10b17 11r19 14r12
+6i27 P{integer} 7|10b27 14r15
+X 7 math.adb
+4f7 Root{float} 6m7 7r14
+11f7 Val{float} 14m7 20r14
+12i7 I{integer}
+
